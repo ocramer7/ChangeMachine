@@ -52,6 +52,12 @@ build CMakeFiles/ChangeMachine.dir/changeMachine.cpp.o: CXX_COMPILER__ChangeMach
   OBJECT_DIR = CMakeFiles/ChangeMachine.dir
   OBJECT_FILE_DIR = CMakeFiles/ChangeMachine.dir
 
+build CMakeFiles/ChangeMachine.dir/ANSI_Colors.cpp.o: CXX_COMPILER__ChangeMachine_Debug /Users/ocramer7/Documents/FRCC_CSC2034CPP/CLionProjects/Assignments/ChangeMachine/ANSI_Colors.cpp || cmake_object_order_depends_target_ChangeMachine
+  DEP_FILE = CMakeFiles/ChangeMachine.dir/ANSI_Colors.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ChangeMachine.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChangeMachine.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ChangeMachine
@@ -60,7 +66,7 @@ build CMakeFiles/ChangeMachine.dir/changeMachine.cpp.o: CXX_COMPILER__ChangeMach
 #############################################
 # Link the executable ChangeMachine
 
-build ChangeMachine: CXX_EXECUTABLE_LINKER__ChangeMachine_Debug CMakeFiles/ChangeMachine.dir/changeMachine.cpp.o
+build ChangeMachine: CXX_EXECUTABLE_LINKER__ChangeMachine_Debug CMakeFiles/ChangeMachine.dir/changeMachine.cpp.o CMakeFiles/ChangeMachine.dir/ANSI_Colors.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/ChangeMachine.dir
   POST_BUILD = :
